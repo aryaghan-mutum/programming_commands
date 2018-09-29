@@ -4,13 +4,16 @@
 - `H` High 
 - `L` Low
 - `M` Middle 
-- `h, l, k, j` Left, right, up, down 
+- `h` Left 
+- `l` Right
+- `k` Up
+- `j` Down
 
 ##### nav file
 - `gg` Go to first line of the file
 - `G`  Go to last line of the file
-- `shift+}` Scroll cursor to beginning of new paragraph
-- `shift+{`	Scroll cursor to beginning of prev paragraph
+- `Shift+} or Shift+)` Scroll cursor to beginning of new paragraph
+- `Shift+{ or Shift+(`	Scroll cursor to beginning of prev paragraph
 - `Ctrl-u`	Up
 - `Ctrl-d` 	Down
 - `Ctrl-f`	Forward

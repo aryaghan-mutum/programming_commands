@@ -15,3 +15,10 @@
 - `vimgrep /pattern/ {file}` Search a pattern in more than 1 files 
 
 - special characters:  `.  \<  />  [ ]`
+
+##### search in multiple files
+- `vimgrep /pattern / {file}`  
+- `cn` Jump to next match
+- `cp` Jump to prev match
+- `copen` Open a screen consists of list of matches
+

@@ -15,18 +15,6 @@
 
 
 
-#### Commands useful on vim IDE
-
-- `syntax on`          Set syntax colors
-- `syntax off`         Unset syntax colors 
-- `set nu`             Set line numbers 
-- `set nonu`           UnSet line numbers  
-- `set autoindent`     Set auto indentation during text entry 
-- `b#`  			   Jumps back to one previous file 
-- `Ctrl-o`		       Jumps back to files
-- `Ctrl-i`             Jumps forward to files
-- `Ctrl-u`             Cursor Up
-- `Ctrl-d`             Cursor Down
 
 #### Calculator
 - `<Ctrl-r>=` 100/50
