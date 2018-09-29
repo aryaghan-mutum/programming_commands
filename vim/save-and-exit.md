@@ -4,7 +4,7 @@
 - `w` Save but don’t exit 
 
 ##### save & exit 
-- `x or wq or ZZ` ave and exit
+- `x or wq or ZZ` Save and exit
 - `q` Quit (fails if there are unsaved changes)
 - `wqa` Save and quit for all tabs 
 - `qa` Exit

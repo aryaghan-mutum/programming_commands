@@ -20,6 +20,7 @@
 - `Ctrl-b`	Backward
 
 ##### nav line
+- `^` Go to start of a line
 - `0` Go to start of a line
 - `$` Go to end of a line
 

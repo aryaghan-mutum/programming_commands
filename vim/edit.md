@@ -1,6 +1,7 @@
 #### Editing
 
 - `u` Undo
+- `U` Undo all changes on the line
 - `Ctrl-r` Redo
 - `.` repeat last cmd
 
@@ -12,7 +13,7 @@
 
 ##### cut lines
 - `dd` Cut a line  
-- `2dd`Cut two lines 
+- `2dd` Cut two lines 
 - `D` Cut till the end of l
 
 ##### cut and paste lines
@@ -25,6 +26,7 @@
 
 ##### copy char
 - `yw` Copy chars of a word from cursor till end of the line
+- `X`  Deleted prev char (backspace)
 
 ##### cut char
 - `dw` Cut the char of a word from the cursor pos to the start of the next word

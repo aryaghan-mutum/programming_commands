@@ -1,0 +1,7 @@
+Language	    Author            Year     Type     	
+C               Deniese Ritchie       1975     strong      
+C++             Bjarne Stroustrup     1980     strong 
+Java            James Gosling	      1995     strong
+Ruby            Yukihiro Matsumoto    1995     dynamic
+Lisp            John McCarthy         1958     dynamic 
+Python          Guido van Rossum      1995     dynamic                    

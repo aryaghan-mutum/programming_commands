@@ -16,6 +16,19 @@
 
 - special characters:  `.  \<  />  [ ]`
 
+#### Search & Replace
+- `/pattern`  Search the pattern
+- `?pattern`  Search backward the pattern
+
+
+##### Regular Expressions 
+- `^`                 Matches beginning of line
+- `$`		      Matches end of line
+- `.`                 Matches any single char	 
+- `*`                 Matches any prev char
+- `.*`                Matched any char 
+
+
 ##### search in multiple files
 - `vimgrep /pattern / {file}`  
 - `cn` Jump to next match
