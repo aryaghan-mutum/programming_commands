@@ -1,19 +1,14 @@
 ##### bash test example:
 
-###### create a file
-`cat > cmd`
+- `cat > cmd` create a file
 
-###### create a file with vim and enter content
-`vim cmd`
+- `vim cmd` create a file with vim and enter content
 
-###### enter some content inside the file
-`echo "This is an output text"
+- `echo "This is an output texti" enter some content inside the file
 
-###### allow execute access permission to the file
-`chmod u+x cmd 
+- `chmod u+x cmd` allow execute access permission to the file
 
-###### shell executes the file
-`./cmd` run a bash file
+- `./cmd` run a bash file
 
 
 
