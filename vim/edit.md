@@ -34,5 +34,6 @@
 ##### delete char
 - `d` Deletes current and the next line
 
-
+#### delete all
+- `ggdG` Delete all in the file 
 

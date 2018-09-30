@@ -1,3 +1,6 @@
+##### Install Vim
+
+`sudo apt-get install`
 
 ##### Interaction with cmd line in Vim
 
