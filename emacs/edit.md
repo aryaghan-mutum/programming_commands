@@ -1,7 +1,11 @@
 #### Editing
 
 - `C-x u`   Undo
-- ``        Copy
+- `C-w`     Cut
+- `M-w`     Copy
 - `C-y`     Paste
+
 - `C-x C-+` Increase text size
 - `C-x C-+` Decrease text size
+
+

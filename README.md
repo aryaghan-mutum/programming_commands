@@ -1,7 +1,7 @@
-#### programming_commands
+#### Emacs
 
 ##### 1. Open a file with emacs
-`emacs myfile`
+- `emacs myfile`
 
 ##### 2. Find a file within emacs
 - `C-x C-f ~/.emacs`
