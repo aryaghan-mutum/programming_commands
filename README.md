@@ -1,8 +1,8 @@
 #### Emacs
 
 ##### 0. Notes
-- `"C" implies Ctrl key 
-- `"M" implies Alt(Meta) key
+- `"C"` implies `Ctrl` key 
+- `"M"` implies `Alt(Meta)` key
 
 ##### 1. Open a file with emacs
 - `emacs myfile`
