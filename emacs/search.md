@@ -6,3 +6,5 @@
 - `C-g`     Abort search
 
 - `C-x C-f` Search a file
+- `C-x i`   Insert a file
+

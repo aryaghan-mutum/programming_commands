@@ -3,7 +3,7 @@
 ##### 1. Open a file with emacs
 - `emacs myfile`
 
-##### 2. Find a file within emacs
+##### 2. Find a personal customization(.emacs) file in the system 
 - `C-x C-f ~/.emacs`
 
 ##### 3. You'd see few function definition such as: 
