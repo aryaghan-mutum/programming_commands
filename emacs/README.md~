@@ -1,4 +1,4 @@
-#### Emacs
+#### Emacs Readme
 
 ##### 0. Notes
 - `"C"` implies `Ctrl` key 
@@ -7,7 +7,7 @@
 ##### 1. Open a file with emacs
 - `emacs myfile`
 
-##### 2. Find a personal customization(.emacs) file in the system 
+##### 2. Find a personal customization file(~/. emacs) in the system 
 - `C-x C-f ~/.emacs`
 
 ##### 3. You'd see few function definition such as: 
