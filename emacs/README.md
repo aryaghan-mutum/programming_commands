@@ -2,7 +2,7 @@
 
 - The `~/.emacs` file contains all the Elisp statements.
 - The `~/.emacs.d` diretory contains all the packages(lisp cmds) for Emacs.
-- One can load a package with `require expression`
+- One can load a package with `require 'expression'`
 
 ##### 1. Open a file with emacs
 - `emacs myfile`
@@ -43,7 +43,7 @@
 
 (set-keyword-coding-system nil)
 ```
-##### Save the file
+##### 5. Save the file
 `C-x C-s`
 
 
