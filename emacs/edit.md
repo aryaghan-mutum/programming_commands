@@ -5,8 +5,10 @@
 - `C-k`     Cuts the entire line including spaces and saves in buffer
 - `M-w`     Copy
 - `C-y`     Paste
+- `C-y` `M-y` Replaces first element with second and second one with third, fourth, or goes on in a circle. `C-y -> yank` `M-y -> yank-pop` `For both -> (insert (car kill-ring-yank-pointer))`
 
 ##### undo-redo 
+- `C-x u`    Undo
 - `C-/`      Undo
 - `C-g C-/`  Redo
 
@@ -17,6 +19,10 @@
 ##### select a region 
 - `C-x h`   Select all in the file
 - `M-h`	    Select a paragraph
+
+
+	
+
 
 
 

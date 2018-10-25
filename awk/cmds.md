@@ -1,3 +1,0 @@
-`awk '/dynamic/' test.txt`
-
-
