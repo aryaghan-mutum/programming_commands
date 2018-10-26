@@ -1,7 +1,7 @@
 #### Help
 
 - `C-h i` Opens 'The Info Directory'
-- `c-h p` Searchs the standard Emacs Lisp libraries by topic keywords.
+- `C-h p` Searchs the standard Emacs Lisp libraries by topic keywords.
 - `C-h f` Read the documentation of a function
 - `C-h v` Read the documentation of a variable `C-h v -> (describe-variable)`
 - `C-h t` View an emacs help tutorial
