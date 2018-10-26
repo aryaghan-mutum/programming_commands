@@ -1,17 +1,15 @@
 #### Searching
 
-- `C-s`     Forward search 
-- `C-r`     Backward search  
-- `C-M-x`   Regex search 
-
-- `C-x C-f` Search a file. If the file doesn't exist, it creates the file
-- `C-x i`   Insert a file
-
-- `M-x grep`  Greps a pattern in the files
-- `M-x rgrep` Recursively grep in a dir
-
-##### Search Documentation 
-- `M-x` apropos
-- `M-x` apropos-command
-- `M-x` apropos-library
-- `M-x` apropos-documentation
+| Commands 		| Description 				                     		        | Lisp procedure 	| 
+|---------------|---------------------------------------------------------------|-------------------|
+| `C-s`         | forward search                    						    |					|
+| `C-r`         | backward search                 								|					|
+| `C-M-x`       | regex search                    								|		            |					 
+| `C-x C-f`     | search a file. If the file doesn't exist, it creates the file |                	|	
+| `C-x i`       | insert a file                   								|		            |					 
+| `M-x grep`    | greps a pattern in the files                   				|				    |					 
+| `M-x rgrep`   | recursively grep in a dir                  					|					|					 
+| `M-x`         | apropos                   									|	  			    |
+| `M-x` 		| apropos-command												|					|
+| `M-x` 		| apropos-library												|					|
+| `M-x`         | apropos-documentation											|					|
