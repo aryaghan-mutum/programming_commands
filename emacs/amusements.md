@@ -1,14 +1,14 @@
+#### Useful
 
-- `M-x menu-set-font`	  Chage fonts
-- `Esc x customize-themes`  Change themes
-- `Esc x tetris` 		  Play tetris
+| Commands 			            | Description                |
+|-------------------------------|----------------------------|
+| `M-x menu-set-font`	        | chage fonts				 |
+| `M x customize-themes`        | change themes              |
+| `M-x list-packages`	  		| find all the packages      |
+| `M-x shell`  		            | opens shell window in emacs|
 
-- `M-x list-packages`	  Find all the packages
 
-- `M-x shell`  		  Opens shell window in emacs
-- `C-x o C-x 0`		  Closed the current file and shell window remains 
-
-##### Games
+#### Games
 
 | Commands 			            | Description                            													  |
 |-------------------------------|---------------------------------------------------------------------------------------------|
