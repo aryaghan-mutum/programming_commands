@@ -9,6 +9,5 @@
 | `C-h t` 		  |	view an emacs help tutorial								     |					 |
 | `C-h k` 		  |	get info on key bindind										 |					 |	
 | `C-h b` 		  |	show all key bindings									     |					 |	
-| `M-x linum-mode`| create line numbers 										 |					 |
 | `C-x 1` 		  |	return to a single window on the screen						 |					 |
 

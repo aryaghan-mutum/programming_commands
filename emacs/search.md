@@ -1,4 +1,4 @@
-#### Searching
+#### Search
 
 | Commands 		| Description 				                     		        | Lisp procedure 	| 
 |---------------|---------------------------------------------------------------|-------------------|
@@ -9,7 +9,4 @@
 | `C-x i`       | insert a file                   								|		            |					 
 | `M-x grep`    | greps a pattern in the files                   				|				    |					 
 | `M-x rgrep`   | recursively grep in a dir                  					|					|					 
-| `M-x`         | apropos                   									|	  			    |
-| `M-x` 		| apropos-command												|					|
-| `M-x` 		| apropos-library												|					|
-| `M-x`         | apropos-documentation											|					|
+

@@ -1,5 +1,10 @@
 #### emacs basics
 - Hold the Control/Meta key followed by the next character. Some computers do not have `<Meta>` key, therefore try `<Esc>` key.
+- Elisp: Transform human readable code into compiled byte code by setting the command: `byte-compile-file`. Compiled byte code is stored in a file that has `.elc` format not `.el`
+
+- `eval-last-sexp`
+
+- `fill-column`
 
 | Commands 		| Description 		          | Lisp procedure 	  		 | 
 |---------------|-----------------------------|--------------------------|
@@ -65,11 +70,6 @@
 | `C-x i`       | insert a file                   								|		            |					 
 | `M-x grep`    | greps a pattern in the files                   				|				    |					 
 | `M-x rgrep`   | recursively grep in a dir                  					|					|					 
-| `M-x`         | apropos                   									|	  			    |
-| `M-x` 		| apropos-command												|					|
-| `M-x` 		| apropos-library												|					|
-| `M-x`         | apropos-documentation											|					|
-
 
 #### Save
 
@@ -101,7 +101,6 @@
 | `C-h t` 		  |	view an emacs help tutorial								     |					 |
 | `C-h k` 		  |	get info on key bindind										 |					 |	
 | `C-h b` 		  |	show all key bindings									     |					 |	
-| `M-x linum-mode`| create line numbers 										 |					 |
 | `C-x 1` 		  |	return to a single window on the screen						 |					 |
 
 
