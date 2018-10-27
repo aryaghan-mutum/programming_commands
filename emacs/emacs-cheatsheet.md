@@ -1,10 +1,12 @@
-#### emacs basics
-- Hold the Control/Meta key followed by the next character. Some computers do not have `<Meta>` key, therefore try `<Esc>` key.
-- Elisp: Transform human readable code into compiled byte code by setting the command: `byte-compile-file`. Compiled byte code is stored in a file that has `.elc` format not `.el`
+Emacs basics
+------------
 
-- `eval-last-sexp`
+-`C-` : _**`CONTROL Key`**_
+-`M-` : _**`META Key`**_
 
-- `fill-column`
+Emacs is written in Emacs Lisp(Elisp) and C programming language. Elisp transforms human readable code into compiled byte code by setting the command: `byte-compile-file`. Compiled byte code is stored in a file that has `.elc` format not `.el`
+
+
 
 | Commands 		| Description 		          | Lisp procedure 	  		 | 
 |---------------|-----------------------------|--------------------------|
@@ -39,8 +41,10 @@
 | `C-g C-/`     | redo														 |										 |
 | `C-x C-+` 	| increase text size										 |										 |
 | `C-x C-+`     | decrease text size										 |										 |
-| `C-x h`       | select all in the file  									 | `(mark-whole-buffer)`				 |	
+| `C-x h`       | select all in the file  									 |										 |
 | `M-h`	        | select a paragraph										 | `(mark-paragraph)`					 |
+| `C-x i`       | insert a buffer in a file aka `(M-x insert-file)`          |       							     |		              
+
 
 #### Navigaion
 
@@ -66,8 +70,7 @@
 | `C-M-x`       | regex search                    								|		                  |					 
 | `C-x C-f`     | search a file. If the file doesn't exist, it creates the file |`(find-file)`            |	
 | `C-x C-v`     | search an alternative file                                    |`(find-alternate-file)`  |        	
-| `C-x C-r`     | search a readonly file     								    |`(find-file-read-only)`  |				
-| `C-x i`       | insert a file                   								|		                  |					 
+| `C-x C-r`     | search a readonly file     								    |`(find-file-read-only)`  |						
 | `M-x grep`    | greps a pattern in the files                   				|				          |					 
 | `M-x rgrep`   | recursively grep in a dir                  					|					      |					 
            					

@@ -1,3 +1,15 @@
+#### Useful
+
+| Commands 			            | Description                            													  |
+|-------------------------------|---------------------------------------------------------------------------------------------|
+| `M-x shell`					| displays bash shell 																		  |
+| `M-x ielm`   				    | interactive emacs lisp mode                        										  | 
+| `M-x count-words`			    | counts the words in a file    															  |
+| `M-x newline`			        | create a new line in a file    															  |
+| `M-x newline`			        | create a new line in a file    															  |
+| `M-x calendar`				| display calender 																			  |
+
+
 #### Games
 
 | Commands 			            | Description                            													  |
@@ -19,7 +31,7 @@
 | `M-x nato-region` 			| converts text to NATO phonetic alphabet                            						  |
 | `M-x denato-region` 			| converts text to NATO phonetic alphabet													  |
 | `M-x animate-birthday-present`| 																							  |
-| `M-x gomoku`        			| go Moku aka (Five in a Row) [go-muku](https://en.wikipedia.org/wiki/Gomoku)				  |
-| `M-x life` 		  			| conway’s game of Life [game-of-life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) |
+| `M-x gomoku`        			| [go-muku](https://en.wikipedia.org/wiki/Gomoku)				  |
+| `M-x life` 		  			| [conway's game-of-life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) |
 
 - To know more about amusement commands, type: `C-h i g (emacs)Amusements` 
