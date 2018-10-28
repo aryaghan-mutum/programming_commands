@@ -6,7 +6,7 @@ Emacs basics
 
 Emacs is written in Emacs Lisp(Elisp) and C programming language. Elisp transforms human readable code into compiled byte code by setting the command: `byte-compile-file`. Compiled byte code is stored in a file that has `.elc` format not `.el`
 
-
+__ __ __ __
 
 | Commands 		| Description 		          | Lisp procedure 	  		 | 
 |---------------|-----------------------------|--------------------------|
@@ -18,15 +18,17 @@ Emacs is written in Emacs Lisp(Elisp) and C programming language. Elisp transfor
 - Emacs understands Elisp, a dialect of lisp. Start emacs buffer: `emacs -Q`
 - Type `q` to get rid of welcome page
 
-#### Buffers
+__ __ __ __
 
+#### Buffers
 | Commands 		| Description 				                     		     | Lisp procedure 	   | 
 |---------------|------------------------------------------------------------|---------------------|
 | `C-x C-b`     | list all buffers (shows buffer & file name of the buffer	 |`(list-buffers)`	   |
 | `C-x b`       | open specific buffer										 |`(switch-to-buffer)` |					 
 
-#### Edit
+__ __ __ __
 
+#### Edit
 | Commands 		| Description 				                     		     | Lisp procedure 	                     | 
 |---------------|------------------------------------------------------------|---------------------------------------|
 | `C-w`     	| cut 														 |`(kill-region)`					     | 
@@ -44,10 +46,9 @@ Emacs is written in Emacs Lisp(Elisp) and C programming language. Elisp transfor
 | `C-x h`       | select all in the file  									 |										 |
 | `M-h`	        | select a paragraph										 | `(mark-paragraph)`					 |
 | `C-x i`       | insert a buffer in a file aka `(M-x insert-file)`          |       							     |		              
-
+__ __ __ __
 
 #### Navigaion
-
 | Commands 		    | Description 				                     		     | Lisp procedure 	          | 
 |-------------------|------------------------------------------------------------|----------------------------|
 | `C-v` 		    | scroll to the bottom										 |`(scroll-up)`				  |
@@ -61,8 +62,9 @@ Emacs is written in Emacs Lisp(Elisp) and C programming language. Elisp transfor
 | `M-a`		        | go to beginning of prev sentence                           |`(backward-sentence)`       |
 | `M-e`		        | go to end of prev sentence                                 |`(forward-sentence)`        |
 
-#### Search
+__ __ __ __
 
+#### Search
 | Commands 		| Description 				                     		        | Lisp procedure 	      | 
 |---------------|---------------------------------------------------------------|-------------------------|
 | `C-s`         | forward search                    						    |`(isearch-forward)`	  |
@@ -73,9 +75,10 @@ Emacs is written in Emacs Lisp(Elisp) and C programming language. Elisp transfor
 | `C-x C-r`     | search a readonly file     								    |`(find-file-read-only)`  |						
 | `M-x grep`    | greps a pattern in the files                   				|				          |					 
 | `M-x rgrep`   | recursively grep in a dir                  					|					      |					 
-           					
-#### Save
+           		
+__ __ __ __
 
+#### Save
 | Commands 		| Description 				                     		     | Lisp procedure 	         | 
 |---------------|------------------------------------------------------------|---------------------------|
 | `C-x C-s`     | save a file                  							     |`(save-buffer)`		     |
@@ -83,16 +86,18 @@ Emacs is written in Emacs Lisp(Elisp) and C programming language. Elisp transfor
 | `C-s C-w`     | saves the file with a different name, asks for the name.   |`(write-file)`		     | 
 | `M-x`		    | recovers the auto saved file                               |`(set-visited-file-name)`  |                  
 
-#### Exit
+__ __ __ __
 
+#### Exit
 | Commands 		| Description 				                     		     | Lisp procedure 	 			| 
 |---------------|------------------------------------------------------------|------------------------------|
 |`C-z`          | exit and enter emacs  								     |`(suspend-frame)`             |
 |`C-x C-c`      | exit emacs perpetually									 |`(save-buffers-kill-terminal)`|				 
 |`C-g`          | quit the current command                                   |					 			|
 
-#### Help
+__ __ __ __
 
+#### Help
 | Commands 		  | Description 				                     		     | Lisp procedure 	       |  
 |-----------------|--------------------------------------------------------------|-------------------------|
 | `C-h b` 		  |	show all key bindings									     |`(describe-bindings)`	   |	
@@ -105,8 +110,9 @@ Emacs is written in Emacs Lisp(Elisp) and C programming language. Elisp transfor
 | `C-h k` 		  |	get info on key bindind										 |`(describe-key)`	       |	
 | `C-h s` 		  |	opens syntax table										     |`(describe-syntax)`	   |
 
-#### Windows (frames)
+__ __ __ __
 
+#### Windows (frames)
 | Commands 		| Description 				                     		     | Lisp procedure 	       | 
 |---------------|------------------------------------------------------------|-------------------------|
 |`C-x o`		| switch between windows                                     |`(other-window)`         |
@@ -114,6 +120,8 @@ Emacs is written in Emacs Lisp(Elisp) and C programming language. Elisp transfor
 |`C-x 1` 		| exit all windows except one 								 |`(delete-other-windows)` |	
 |`C-x 2`        | horizontal split.                                      	 |`(split-window-right)`   |
 |`C-x 3`        | vertical split 										     |`(split-window-right)`   |					 
+
+__ __ __ __
 
 #### Settings
 | Commands 			            | Description                               |
