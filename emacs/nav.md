@@ -2,8 +2,8 @@
 
 | Commands 		    | Description 				                     		     | Lisp procedure 	          | 
 |-------------------|------------------------------------------------------------|----------------------------|
-| `C-v` 		    | scroll to the bottom										 |`(scroll-up)`				  |
-| `M-v`             | scroll to the top											 |`(scroll-down)`			  |
+| `C-v` 		    | scroll to the top										 	 |`(scroll-up)`				  |
+| `M-v`             | scroll to the bottom										 |`(scroll-down)`			  |
 | `C-a`		        | go to start of line   									 |`(move-beginning-of-line)`  |					 
 | `C-e`		        | go to end of line                                          |`(move-end-of-line)`        |
 | `C-p`	            | go to previous line                                        |`(previous-line)`           |

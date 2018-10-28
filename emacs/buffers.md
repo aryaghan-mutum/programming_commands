@@ -6,3 +6,4 @@
 | `C-x b`                 | switch a buffer      										 |`(switch-to-buffer)` |				
 | `C-x k`                 | kill a buffer									 			 |`(kill-buffer)` 	   |
 | `M-x kill-some-buffers  | kill buffers one after another 								 | `-`				   |
+
