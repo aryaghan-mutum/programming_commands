@@ -30,7 +30,7 @@ __ __ __ __
 | `M-x nato-region` 			| converts text to NATO phonetic alphabet                            						  |
 | `M-x denato-region` 			| converts text to NATO phonetic alphabet													  |
 | `M-x animate-birthday-present`| 																							  |
-| `M-x gomoku`        			| [go-muku](https://en.wikipedia.org/wiki/Gomoku)				  |
-| `M-x life` 		  			| [conway's game-of-life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) |
+| `M-x gomoku`        			| [go-muku](https://en.wikipedia.org/wiki/Gomoku)				  							  |
+| `M-x life` 		  			| [conway's game-of-life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)              |
 
 - To know more about amusement commands, type: `C-h i g (emacs)Amusements` 
