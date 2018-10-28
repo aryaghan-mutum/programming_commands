@@ -2,6 +2,6 @@
 
 | Commands 				 | Description 				                     		      | Lisp procedure 	                      | 
 |------------------------|------------------------------------------------------------|---------------------------------------|
-| `C-x` `C-q`  			 | switch on/off read only mode aka: `M-x read-only-mode`     | `(toggle-read-only)`                  |
+| `C-x C-h` 		  	 | word apprevation mode (opens key translation table)		  |	`(inverse-add-local-abbrev)`		  |
 | `M-x *-mode <tab>`     | display all modes										  |										  |
 | `M-x describe-mode`    | describe modes 											  | `(describe-mode)` 					  |

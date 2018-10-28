@@ -11,3 +11,16 @@
 | `M-x grep`    | greps a pattern in the files                   				|				          |					 
 | `M-x rgrep`   | recursively grep in a dir                  					|					      |					 
 
+
+##### Regex table
+| Character 	| Description 				        		|		
+|---------------|-------------------------------------------|
+|`^`		    | matches beginning of a line       		|
+|`$`			| matches end of a line 					|
+|`.`			| matches any isngle character      		|
+|`.*`			| matches any group of zero or more chars	|
+|`\<`			| mateches beginning of a word				|
+|`\>`			| mateches end of a word					|
+
+- The regular expression table has taken from [Learning GNU Emacs](http://shop.oreilly.com/product/9781565921528.do)
+
