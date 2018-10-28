@@ -1,15 +1,3 @@
-#### Useful
-| Commands 			            | Description                            													  |
-|-------------------------------|---------------------------------------------------------------------------------------------|
-| `M-x shell`					| displays bash shell 																		  |
-| `M-x ielm`   				    | interactive emacs lisp mode                        										  | 
-| `M-x count-words`			    | counts the words in a file    															  |
-| `M-x newline`			        | create a new line in a file    															  |
-| `M-x newline`			        | create a new line in a file    															  |
-| `M-x calendar`				| display calender 																			  |
-
-__ __ __ __
-
 #### Games
 | Commands 			            | Description                            													  |
 |-------------------------------|---------------------------------------------------------------------------------------------|

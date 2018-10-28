@@ -83,6 +83,19 @@ __ __ __ __
 
 __ __ __ __
 
+#### Mail
+| Commands 			            | Description                              | Lisp procedure        | 
+|-------------------------------|------------------------------------------|-----------------------|	
+| `M-x m`						| display mail buffer					   | `(mail)`		       |
+| `C-c C-f C-c`					| _**`CC`**_ 							   | `(mail-cc)` 	       | 
+| `C-c C-f C-b`					| _**`BCC`**_ 							   | `(mail-bcc)` 	       |
+| `C-c C-f C-s`					| _**`Subject`**_ 						   | `(mail-subjbect)` 	   |
+| `C-c C-c`						| send and exit a mail from `*mail*` buffer| `(mail-send-and-exit)`|
+| `C-c C-s`						| send a mail and stay in `*mail*` buffer  | `(mail-send)`         |
+| `C-c C-w`						| minsert the contents of `.signature` file| `(mail-signature)`    |
+
+__ __ __ __
+
 #### Mode
 | Commands 				 | Description 				                     		      | Lisp procedure 	                      | 
 |------------------------|------------------------------------------------------------|---------------------------------------|
@@ -165,6 +178,19 @@ __ __ __ __
 |`C-x 3`        | vertical split 										     |`(split-window-right)`   |					 
 
 __ __ __ __
+
+#### Work Environment
+| Commands 			            | Description                              | Lisp procedure | 
+|-------------------------------|------------------------------------------|----------------|				
+| `M-x shell`					| displays bash shell 					   |				|
+| `M-x ielm`   				    | interactive emacs lisp mode              | 				|
+| `M-x count-words`			    | counts the words in a file    		   |				|
+| `M-x newline`			        | create a new line in a file    		   |				|
+| `M-x newline`			        | create a new line in a file    		   |				|
+| `M-x calendar`				| display calender 						   |				|	
+| `M-x m`						| display mail buffer					   | `(mail)`		|
+
+
 
 
 
