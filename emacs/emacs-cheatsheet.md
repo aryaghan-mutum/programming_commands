@@ -1,4 +1,4 @@
-#### A General Guide To Emacs Lisp
+#### A Cheat Sheet for Emacs Commands
 ------------
 
 - `C-` : _**`CONTROL Key`**_
@@ -20,7 +20,6 @@ __ __ __ __
 
 __ __ __ __
 
-#### Cheat Sheet for Emacs Commands
 * [Amusements](#amusements)
 * [Buffers](#buffers)
 * [Capitalization](#capitalization)
