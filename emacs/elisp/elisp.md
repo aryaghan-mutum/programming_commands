@@ -19,15 +19,23 @@ nil			;nil
 "this-is-a-string" 	;"this is a string"
 (+ 3 7)	;10
 (+ (* 2 4) (/ 10 5))   ;10
-(+ 3-2i 3+4i)
 ```
 
 ##### Setting Variables
 ```el
 (setq flowers '(lilly rose jasmine))
 ```
+##### Functions
+```el
+(defun print-flowers (f) (print f))
+(print-flowers flowers) ;(lilly rose jasmine)
 
+(defun square (x) (* x x))
+(square 3) ;9
 
+(defun cube (x) (* x x x))
+(cube 3) ;27
+```
 
 
 
