@@ -7,15 +7,28 @@
 
 - Insert `C-x C-e` at the end of a S-expression for evaluation.
 
-##### Create Commands
+##### Basics
 
 ```el
-(defun buffer/insert-filename ()
-  "Insert file name of current buffer at current point"
-
-  (interactive)
-  (insert (buffer-file-name (current-buffer))))
+1			;1
+3.14			;3.14
+t			;t
+nil			;nil
+'()			;nil
+:this-is-a-symbol	;:this-is-a-symbol
+"this-is-a-string" 	;"this is a string"
+(+ 3 7)	;10
+(+ (* 2 4) (/ 10 5))   ;10
+(+ 3-2i 3+4i)
 ```
+
+##### Setting Variables
+```el
+(setq flowers '(lilly rose jasmine))
+```
+
+
+
 
 
 
