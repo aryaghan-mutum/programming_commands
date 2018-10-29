@@ -1,4 +1,4 @@
-Emacs basics
+#### A General Guide To Emacs Lisp
 ------------
 
 - `C-` : _**`CONTROL Key`**_
@@ -20,6 +20,7 @@ __ __ __ __
 
 __ __ __ __
 
+#### Cheat Sheet for Emacs Commands
 * [Amusements](#amusements)
 * [Buffers](#buffers)
 * [Capitalization](#capitalization)
@@ -34,6 +35,7 @@ __ __ __ __
 * [Settings](#settings)
 * [Windows](#windows)
 * [Work Environment](#work-environment)
+* [Additional Resources](#additional-resources)
 
 #### Amusements 
 | Commands 			            | Description                            													  |
@@ -199,7 +201,7 @@ __ __ __ __
 
 __ __ __ __
 
-#### Windows (frames)
+#### Windows 
 | Commands 		| Description 				                     		     | Lisp procedure 	          	   | 
 |---------------|------------------------------------------------------------|---------------------------------|
 |`C-x o`		| switch between windows                                     |`(other-window)`         		   |
@@ -225,7 +227,8 @@ __ __ __ __
 | `M-x m`						| display mail buffer					   | `(mail)`		|
 
 
-
+#### Additional Resources
+[Learn Emacs Lisp](http://emacslife.com/emacs-lisp-tutorial.html)
 
 
  
