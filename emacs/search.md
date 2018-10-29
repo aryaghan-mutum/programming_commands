@@ -13,6 +13,7 @@
 
 
 ##### Regex table
+
 | Character 	| Description 				        		|		
 |---------------|-------------------------------------------|
 |`^`		    | matches beginning of a line       		|
