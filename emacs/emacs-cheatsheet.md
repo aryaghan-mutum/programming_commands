@@ -20,6 +20,21 @@ __ __ __ __
 
 __ __ __ __
 
+* [Amusements](#amusements)
+* [Buffers](#buffers)
+* [Capitalization](#capitalization)
+* [Edit](#edit)
+* [Exit](#exit)
+* [Help](#help)
+* [Mail](#mail)
+* [Mode](#mode)
+* [Navigation](#navigation)
+* [Save](#save)
+* [Search](#search)
+* [Settings](#settings)
+* [Windows](#windows)
+* [Work Environment](#work-environment)
+
 #### Buffers
 | Commands 		| Description 				                     		     | Lisp procedure 	   | 
 |---------------|------------------------------------------------------------|---------------------|
