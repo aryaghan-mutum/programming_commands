@@ -8,4 +8,5 @@
 | `M-x newline`			        | create a new line in a file    		   |				|
 | `M-x calendar`				| display calender 						   |				|	
 | `M-x m`						| display mail buffer					   | `(mail)`		|
+| `M-x eval-expression`			| evaluate Elisp commands in a buffer      | 				|
 
