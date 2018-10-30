@@ -86,7 +86,7 @@ nil			;nil
 *****************
 - `when` is a form or version of `if` without `else` expression.
 
-(when
+
 
 
 ;;`unless` examples
@@ -102,8 +102,10 @@ nil			;nil
 
 ##### Functions
 ```el
-(defun print-flowers (f) (print f))
-(print-flowers flowers) ;(lilly rose jasmine)
+(setq prime-nums '(2 3 5 7 11))
+
+(defun print-first-five-prime-nums (n) (print n))
+(print-first-five-prime-nums prime-nums)       ;(2 3 5 7 11)
 
 (defun square (x) (* x x))
 (square 3) ;9
