@@ -69,7 +69,9 @@ nil			;nil
 - Conditionals are 4 different types in Emacs Lisp.
 
 ;;`if` examples
-*************** 
+***************
+- structure: (if (condition) true false)
+
 (if t 'a 'b)	;a
 (if nil 'a 'b)  ;b
 
@@ -85,6 +87,7 @@ nil			;nil
 ;;`when` examples
 *****************
 - `when` is a form or version of `if` without `else` expression.
+- structure: (when (test) form-1 form-2)
 
 
 
