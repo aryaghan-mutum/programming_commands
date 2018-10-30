@@ -34,7 +34,7 @@ nil			;nil
 (set 'numbers '(1 2 3)) ;Right
 
 ;;set variables using `setq`
-***************************
+****************************
 (setq 'insects '(mantis beetle flea)) ;Wrong
 (setq insects '(mantis beetle flea))  ;Right
 
@@ -50,8 +50,8 @@ nil			;nil
 
 (setq (car insects) ;mantis
 
-;;set vars using `setf`
-**********************
+;;set variables using `setf`
+****************************
 (setq (car '(1 2 3)) 4)		;Wrong
 (setf (car '(1 2 3)) 4) 	;Right 4
 
@@ -64,6 +64,34 @@ nil			;nil
 ```
 
 ##### Conditionals
+```el
+
+- Conditionals are 4 different types in Emacs Lisp.
+
+;;`if` examples
+***************
+(if t 'a 'b)	;a
+(if nil 'a 'b)  ;b
+
+(defun match-word (word)
+    (if (equal word "mantis")
+    	(message "word matched!")
+	(message "word not matched!")))
+	
+(match-word "mantis") ;word macthed
+(match-word "ant")    ;word not macthed
+
+
+;;`when` examples
+*****************
+
+;;unless
+********
+
+;;cond
+******
+
+```
 
 ##### Loops
 
