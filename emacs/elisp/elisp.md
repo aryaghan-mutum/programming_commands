@@ -29,10 +29,12 @@ nil			;nil
 - `setf` is a used to set variables, symbols, arrays ...
 
 ;;set variables using `set`
+***************************
 (set number '(1 2 3))	;Wrong
 (set 'numbers '(1 2 3)) ;Right
 
 ;;set variables using `setq`
+***************************
 (setq 'insects '(mantis beetle flea)) ;Wrong
 (setq insects '(mantis beetle flea))  ;Right
 
@@ -42,13 +44,14 @@ nil			;nil
       flowers '(lilly rose jasmine)
       birds '(sparrow crane heron))
 
-;Incrementing a number by 1 (setting a counter)
+;;Incrementing a number by 1 (setting a counter)
 (setq inc 0)
 (setq inc (+ inc 1))
 
 (setq (car insects) ;mantis
 
 ;;set vars using `setf`
+**********************
 (setq (car '(1 2 3)) 4)		;Wrong
 (setf (car '(1 2 3)) 4) 	;Right 4
 
