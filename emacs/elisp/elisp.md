@@ -86,17 +86,47 @@ nil			;nil
 
 ;;`when` examples
 *****************
-- `when` is a form or version of `if` without `else` expression.
-- structure: (when (test) form-1 form-2)
+- structure: (when (test) form-1 form-2 .. ..)
+- `when` is a form or a version of `if` without `else` expression.
 
+(when t :a)    	   ;:a
+(when nil :a)	   ;nil
+(when t 'a 'b 'c)  ;c
 
+(setq n 0)
+(when (zerop n) (cons 1 n))  ;(1 . 0)
+
+(defun is-a-number-p (n)
+    (when (numberp n)
+    (message "Yes it is a number")))
+(is-a-number-p n)     ;Yes it is a number
 
 
 ;;`unless` examples
 *******************
+- structure: (unless (test) form-1 form-2 .. ..)
+- `unless` is a form or version of `if` which can be be expressed as: `if not` or `if !condition`
+
+(unless t :a) 	      ;nil	
+(unless nil :a)	      ;:a
+(unless nil 'a 'b 'c) ;c
+
+(unless (zerop n) (message "unless"))  ;nil
+
 
 ;;`cond` examples
 *****************
+- structure: (cond (test)
+  	     	   (form-1)
+		   (form-2)
+		       ...))
+- `cond` is a multiple `if` conditions  
+
+(defun abs (x)
+       	(cond ((> x 0) x)
+              ((= x 0) 0)
+	      ((< x 0) (- x))))
+(abs -9)  ;9
 
 
 ```
