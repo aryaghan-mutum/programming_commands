@@ -87,7 +87,7 @@ nil			;nil
 ;;`when` examples
 *****************
 - structure: (when (test) form-1 form-2 .. ..)
-- `when` is a form or a version of `if` without `else` expression.
+- `when` is a form or version of `if` without `else` expression.
 
 (when t :a)    	   ;:a
 (when nil :a)	   ;nil
@@ -119,8 +119,7 @@ nil			;nil
 - structure: (cond (test)
   	     	   (form-1)
 		   (form-2)
-		       ...))
-- `cond` is a multiple `if` conditions  
+		       ...))    `cond` is a multiple `if` conditions or analogous to case statements in Algol programming langauges.   
 
 (defun abs (x)
        	(cond ((> x 0) x)
