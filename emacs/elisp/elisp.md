@@ -69,27 +69,32 @@ nil			;nil
 - Conditionals are 4 different types in Emacs Lisp.
 
 ;;`if` examples
-***************
+*************** 
 (if t 'a 'b)	;a
 (if nil 'a 'b)  ;b
 
-(defun match-word (word)
-    (if (equal word "mantis")
-    	(message "word matched!")
-	(message "word not matched!")))
+(defun match-list (L)
+    (if (equal L '(1 3 5 7))
+        (message "List matched!")
+	(message "List not matched!")))
 	
-(match-word "mantis") ;word macthed
-(match-word "ant")    ;word not macthed
+(match-list '(1 3 5 7))    ;list macthed
+(match-list '(2 4 6 8))    ;list not macthed
 
 
 ;;`when` examples
 *****************
+- `when` is a form or version of `if` without `else` expression.
 
-;;unless
-********
+(when
 
-;;cond
-******
+
+;;`unless` examples
+*******************
+
+;;`cond` examples
+*****************
+
 
 ```
 
