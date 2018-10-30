@@ -17,14 +17,53 @@ nil			;nil
 '()			;nil
 :this-is-a-symbol	;:this-is-a-symbol
 "this-is-a-string" 	;"this is a string"
-(+ 3 7)	;10
-(+ (* 2 4) (/ 10 5))   ;10
+(+ 3 7)			;10
+(+ (* 2 4) (/ 10 5))    ;10
 ```
 
-##### Setting Variables
+##### Variables
 ```el
-(setq flowers '(lilly rose jasmine))
+
+- `set` is used to set value of symbols
+- `setq` is used to set value of variables
+- `setf` is a used to set variables, symbols, arrays ...
+
+;;set variables using `set`
+(set number '(1 2 3))	;Wrong
+(set 'numbers '(1 2 3)) ;Right
+
+;;set variables using `setq`
+(setq 'insects '(mantis beetle flea)) ;Wrong
+(setq insects '(mantis beetle flea))  ;Right
+
+(setq x 10 y 20) 
+
+(setq insects '(mantis beetle flea)
+      flowers '(lilly rose jasmine)
+      birds '(sparrow crane heron))
+
+;Incrementing a number by 1 (setting a counter)
+(setq inc 0)
+(setq inc (+ inc 1))
+
+(setq (car insects) ;mantis
+
+;;set vars using `setf`
+(setq (car '(1 2 3)) 4)		;Wrong
+(setf (car '(1 2 3)) 4) 	;Right 4
+
+(setf (cdr insects) ;(beetle flea)
+
+(setf empty '()) ;nil
+
+(setf empty-again nil) ;nil
+
 ```
+
+##### Conditionals
+
+##### Loops
+
 ##### Functions
 ```el
 (defun print-flowers (f) (print f))
@@ -36,6 +75,8 @@ nil			;nil
 (defun cube (x) (* x x x))
 (cube 3) ;27
 ```
+
+##### Recursions
 
 
 
