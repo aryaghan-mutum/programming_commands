@@ -98,7 +98,7 @@ nil			;nil
 
 (defun is-a-number-p (n)
     (when (numberp n)
-    (message "Yes it is a number")))
+    (insert "Yes it is a number")))
 (is-a-number-p n)     ;Yes it is a number
 
 
@@ -111,7 +111,7 @@ nil			;nil
 (unless nil :a)	      ;:a
 (unless nil 'a 'b 'c) ;c
 
-(unless (zerop n) (message "unless"))  ;nil
+(unless (zerop 9) (insert  "unless"))  ;nil
 
 
 ;;`cond` examples
@@ -119,18 +119,30 @@ nil			;nil
 - structure: (cond (test)
   	     	   (form-1)
 		   (form-2)
-		       ...))    `cond` is a multiple `if` conditions or analogous to case statements in Algol programming langauges.   
+		       ...)) `cond` is a multiple `if` conditions or analogous to `case` statements in Algol type programming langauges.   
 
 (defun abs (x)
        	(cond ((> x 0) x)
               ((= x 0) 0)
 	      ((< x 0) (- x))))
 (abs -9)  ;9
-
-
 ```
 
 ##### Loops
+```el
+- Loops are 3 different types in Emacs Lisp.
+
+;;`while examples`
+******************
+- structure: (while (condition)
+		     body ...)
+
+;;`dolist examples
+******************
+
+;;`dotimes examples`
+********************
+```
 
 ##### Functions
 ```el
@@ -151,4 +163,4 @@ nil			;nil
 
 
 
-
+(insert "Hello, I am " "dsd")
