@@ -23,7 +23,6 @@ nil			;nil
 
 ##### Variables
 ```el
-
 - `set` is used to set value of symbols
 - `setq` is used to set value of variables
 - `setf` is a used to set variables, symbols, arrays ...
@@ -37,9 +36,8 @@ nil			;nil
 ****************************
 (setq 'insects '(mantis beetle flea)) ;Wrong
 (setq insects '(mantis beetle flea))  ;Right
-
-(setq x 10 y 20) 
-
+(setq (car insects)		      ;mantis
+(setq x 10 y 20)       	      	      
 (setq insects '(mantis beetle flea)
       flowers '(lilly rose jasmine)
       birds '(sparrow crane heron))
@@ -48,24 +46,17 @@ nil			;nil
 (setq inc 0)
 (setq inc (+ inc 1))
 
-(setq (car insects) ;mantis
-
 ;;set variables using `setf`
 ****************************
 (setq (car '(1 2 3)) 4)		;Wrong
 (setf (car '(1 2 3)) 4) 	;Right 4
-
-(setf (cdr insects) ;(beetle flea)
-
-(setf empty '()) ;nil
-
-(setf empty-again nil) ;nil
-
+(setf (cdr insects)  		;(beetle flea)
+(setf empty '()) 		;nil
+(setf empty-again nil) 		;nil
 ```
 
 ##### Conditionals
 ```el
-
 - Conditionals are 4 different types in Emacs Lisp.
 
 ;;`if` examples
