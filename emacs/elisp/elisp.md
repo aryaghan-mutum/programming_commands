@@ -151,7 +151,3 @@ nil			;nil
 
 ##### Recursions
 
-
-
-
-(insert "Hello, I am " "dsd")

@@ -12,7 +12,7 @@
 - `C-x C-f ~/.emacs`
 
 ##### 3. You'd see few function definition such as: 
-```common-lisp
+```el
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -33,7 +33,7 @@
 ```
 
 ##### 4. Add the bellow functions in the same file
-```common-lisp
+```el
 (package-initialize)
 
 (require 'package)
