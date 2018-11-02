@@ -55,6 +55,47 @@ nil			;nil
 (setf empty-again nil) 		;nil
 ```
 
+##### Bindings
+```el
+;;`let` examples
+****************
+- `let` & `let*` gives lexical scoping in a program. 
+- structure: (let ((var1 val1)
+      	     	   (var2 val2)
+     		  	 ...
+			     )
+    			 body)
+    
+(let ((x 5)
+      (y 10))
+       (setq z (* x y))
+	     z)			;50
+	     
+(let ((x 10) (y 20))
+      (cons x y))		;(10 . 20)
+
+(let ((L1 '(:a :b :c :d))
+      (L2 '(:e :f :g :h)))
+      (cons (car L1) (cdr L2))) ;(:a :f :g :h)
+
+(let ((x 4))
+     (format "x val in outer let: %d." x)
+  (let ((x 8))
+     (format "x val in inner let: %d." x))
+     (let ((y x))
+     	      y))		;4
+
+
+
+;;`let* examples`
+*****************
+- structure: (let* ((var1 
+(let* ((x 10)
+       (y (- x 10)))
+       (list x y))		;(10 0)	
+   
+```
+
 ##### Conditionals
 ```el
 - Conditionals are 4 different types in Emacs Lisp.
@@ -110,7 +151,7 @@ nil			;nil
 - structure: (cond (test)
   	     	   (form-1)
 		   (form-2)
-		       ...)) `cond` is a multiple `if` conditions or analogous to `case` statements in Algol type programming langauges.   
+		       ...)) `cond` is a multiple `if` conditions or analogous to `case` statements in Algol-like langauges.   
 
 (defun abs (x)
        	(cond ((> x 0) x)
@@ -128,8 +169,28 @@ nil			;nil
 - structure: (while (condition)
 		     body ...)
 
+(setq num '(1 2 3 4 5))
+class WhileDemo {
+    public static void main(String[] args){
+        int count = 1;
+        while (count < 11) {
+            System.out.println("Count is: " + count);
+            count++;
+        }
+    }
+}
+
+(defun while-demo ()
+     (setq count 1)
+     (while (< count 11)
+     	    (message count)
+	    (setq count (+ count))))
+       	      
+	      
 ;;`dolist examples
 ******************
+(setq j 0)
+(dolist ((j 0) (+ j 1)))
 
 ;;`dotimes examples`
 ********************
@@ -150,4 +211,5 @@ nil			;nil
 ```
 
 ##### Recursions
+
 
