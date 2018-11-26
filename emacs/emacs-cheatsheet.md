@@ -36,7 +36,7 @@ __ __ __ __
 * [Work Environment](#work-environment)
 * [Additional Resources](#additional-resources)
 
-#### Amusements 
+#### Amusements (Games)
 | Commands 			            | Description                            													  |
 |-------------------------------|---------------------------------------------------------------------------------------------|
 | `M-x snake`   				|                              																  | 
@@ -59,9 +59,11 @@ __ __ __ __
 | `M-x gomoku`        			| [go-muku](https://en.wikipedia.org/wiki/Gomoku)				  							  |
 | `M-x life` 		  			| [conway's game-of-life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)              |
 
+- To know more about amusement commands, type: `C-h i g (emacs)Amusements` 
+
 __ __ __ __
 
-#### Buffers
+#### Buffer
 | Commands 		          | Description 				                     		     | Lisp procedure 	   | 
 |-------------------------|--------------------------------------------------------------|---------------------|
 | `C-x C-b`               | list all buffers (shows buffer & file name of the buffer	 |`(list-buffers)`	   |
@@ -69,6 +71,7 @@ __ __ __ __
 | `C-x` `C-q`  			  | switch on/off read only mode aka: `M-x read-only-mode`       |`(toggle-read-only)` | 
 | `C-x k`                 | kill a buffer									 			 |`(kill-buffer)` 	   |
 | `M-x kill-some-buffers  | kill buffers one after another 								 |`(kill-some-buffers)`|
+
 
 __ __ __ __
 
@@ -101,7 +104,7 @@ __ __ __ __
 | `C-x h`           | mark whole buffer  									     | `(mark-whole-buffer)`				 |	
 | `C-x C-p`         | mark page 									             | `(mark-page)`				         |	
 | `M-h`	            | select a paragraph										 | `(mark-paragraph)`					 |
-| `C-x i`           | insert a buffer in a file aka `(M-x insert-file)`          |       							     |		                
+| `C-x i`           | insert a buffer in a file aka `(M-x insert-file)`          |       							     |		                   
 __ __ __ __
 
 #### Exit
@@ -119,12 +122,11 @@ __ __ __ __
 | `C-h i` 		  		| opens _**The Info Directory**_								 	   |`(info)`			     |
 | `C-h r` or `M-x info` | opens _**The Emacs Editor**_								 	       |`(info-emacs-manual)`    |
 | `C-h p` 		  		| searchs the standard Emacs Lisp libraries by topic keywords.         |`(finder-by-keyword)`    |
-| `C-h f` 		 		| read the documentation of a function						           |`(describe-function)`    |
+| `C-h f` 		 		| read the documentation of a function and macros					   |`(describe-function)`    |
 | `C-h v` 		  		| read the documentation of a variable 						           |`(describe-variable)`    |
 | `C-h t` 		  		| view an _**Emacs Help Tutorial**_							           |`(help-with-tutorial)`   |	 
 | `C-h k` 		  		| get info on key binding										       |`(describe-key)`	     |	
 | `C-h s` 		  		| opens syntax table										           |`(describe-syntax)`	     |
-
 __ __ __ __
 
 #### Mail
@@ -181,12 +183,11 @@ __ __ __ __
 | `C-s`         | forward search (press `C-s` multiple times)                   |`(isearch-forward)`	  |
 | `C-r`         | reverse (backward) search (press `C-r` multiple times)        |`(isearch-backward)`	  |
 | `C-M-x`       | regex search                    								|		                  |					 
-| `C-x C-f`     | search a file. If the file doesn't exist, it creates the file |`(find-file)`            |	
+| `C-x C-f`     | search a file. If the file doesn't exist, it creates the file |`(find-file "filename")` |	
 | `C-x C-v`     | search an alternative file                                    |`(find-alternate-file)`  |        	
-| `C-x C-r`     | search a readonly file     								    |`(find-file-read-only)`  |					 
+| `C-x C-r`     | search a readonly file     								    |`(find-file-read-only)`  |						
 | `M-x grep`    | greps a pattern in the files                   				|				          |					 
 | `M-x rgrep`   | recursively grep in a dir                  					|					      |					 
-        		
 __ __ __ __
 
 #### Settings
@@ -221,9 +222,10 @@ __ __ __ __
 | `M-x ielm`   				    | interactive emacs lisp mode              | 				|
 | `M-x count-words`			    | counts the words in a file    		   |				|
 | `M-x newline`			        | create a new line in a file    		   |				|
-| `M-x newline`			        | create a new line in a file    		   |				|
 | `M-x calendar`				| display calender 						   |				|	
 | `M-x m`						| display mail buffer					   | `(mail)`		|
+| `M-x eval-expression`			| evaluate Elisp commands in a buffer      | 				|
+| `M-x lisp-mode`				| Lisp mode 							   |                |  
 
 
 #### Additional Resources

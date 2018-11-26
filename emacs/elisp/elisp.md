@@ -59,7 +59,7 @@ nil			;nil
 ```el
 ;;`let` examples
 ****************
-- `let` & `let*` gives lexical scoping in a program. 
+- `let` & `let*` gives lexical scoping inside a function.  
 - structure: (let ((var1 val1)
       	     	   (var2 val2)
      		  	 ...
@@ -69,10 +69,10 @@ nil			;nil
 (let ((x 5)
       (y 10))
        (setq z (* x y))
-	     z)			;50
+	     z)			        ;50
 	     
 (let ((x 10) (y 20))
-      (cons x y))		;(10 . 20)
+      (cons x y))		  ;(10 . 20)
 
 (let ((L1 '(:a :b :c :d))
       (L2 '(:e :f :g :h)))
@@ -83,16 +83,29 @@ nil			;nil
   (let ((x 8))
      (format "x val in inner let: %d." x))
      (let ((y x))
-     	      y))		;4
+     	      y))		   ;4
 
+
+(let ((x (+ 5 2))
+       (y (- 9 x)))
+(cons x y))          ;Wrong
+
+(let ((x (+ 5 2))
+       (y (- 9 0)))
+(cons x y))          ;(7 . 9) Correct
 
 
 ;;`let* examples`
 *****************
 - structure: (let* ((var1 
+  
 (let* ((x 10)
        (y (- x 10)))
        (list x y))		;(10 0)	
+
+(let* ((x (+ 5 2))
+       (y (- 9 x)))
+(cons x y))          ;(7 . 2)
    
 ```
 
@@ -170,23 +183,21 @@ nil			;nil
 		     body ...)
 
 (setq num '(1 2 3 4 5))
-class WhileDemo {
-    public static void main(String[] args){
-        int count = 1;
-        while (count < 11) {
-            System.out.println("Count is: " + count);
-            count++;
-        }
-    }
-}
-
 (defun while-demo ()
      (setq count 1)
      (while (< count 11)
      	    (message count)
 	    (setq count (+ count))))
-       	      
-	      
+
+
+(let ((num 4))
+      (while (> num 0)
+       (insert (format " Num: %d " num))
+                     (setq num (1- num)))
+) 
+;Num: 4  Num: 3  Num: 2  Num: 1 
+
+       	    	      
 ;;`dolist examples
 ******************
 (setq j 0)
